@@ -1,6 +1,14 @@
 import pickle
 import tensorflow as tf
 # TODO: import Keras layers you need here
+# TODO: import Keras layers you need here
+import keras
+from keras.datasets import mnist
+from keras.datasets import cifar10
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Conv2D, MaxPooling2D
+from keras import backend as K
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
